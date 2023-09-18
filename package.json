@@ -8,11 +8,15 @@
   },
   "keywords": [],
   "author": "",
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.6.2",
     "dotenv": "^16.3.1",
     "prisma": "^5.3.1",
+    "ts-node": "^10.9.1",
     "tsx": "^3.12.10",
     "typescript": "^5.2.2"
   },
@@ -20,7 +24,9 @@
     "@fastify/cors": "^8.3.0",
     "@fastify/multipart": "^7.7.3",
     "@prisma/client": "5.3.1",
+    "ai": "^2.2.12",
     "fastify": "^4.23.2",
+    "ia": "0.0.1-beta",
     "openai": "^4.7.1",
     "zod": "^3.22.2"
   }

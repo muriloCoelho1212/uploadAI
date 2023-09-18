@@ -34,5 +34,5 @@ Content-Type: application/json
 {
   "videoId": "94f803f5-c97b-491f-bf87-945912314215",
   "temperature": 0.5,
-  "template": "Disserte a transcrição do vídeo informada a seguir: '''{transcription}'''"
+  "prompt": "Disserte a transcrição do vídeo informada a seguir: '''{transcription}'''"
 }
